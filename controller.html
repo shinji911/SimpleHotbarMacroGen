@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Hotbar Macro Generator for FF14 V1.0.0</title>
+	<!--reset CSS-->
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!-- CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">Navbar</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-link" href="./index.html">Home</a>
+				<a class="nav-link active" href="./controller.html">Controller</a>
+				<a class="nav-link" href="./keyboard.html">Keyboard</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col-1"></div>
+			<div class="col-1">
+				<img src="https://ffxiv.consolegameswiki.com/mediawiki/images/5/58/Action_Command.png"
+					alt="Pick A Spell" width="60" height="60" id="ld2">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=1>LD2</button>
+			</div>
+			<div class="col-1"></div>
+			<div class="col-1"></div>
+			<div class="col-1">
+				<img src="https://ffxiv.consolegameswiki.com/mediawiki/images/5/58/Action_Command.png"
+					alt="Pick A Spell" width="60" height="60" id="la2">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=5>LA2</button>
+			</div>
+			<div class="col-1"></div>
+			<div class="col-1"></div>
+			<div class="col-1">
+				<img src="https://ffxiv.consolegameswiki.com/mediawiki/images/5/58/Action_Command.png"
+					alt="Pick A Spell" width="60" height="60" id="rd2">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=9>RD2</button>
+			</div>
+			<div class="col-1"></div>
+			<div class="col-1"></div>
+			<div class="col-1">
+				<img src="https://ffxiv.consolegameswiki.com/mediawiki/images/5/58/Action_Command.png"
+					alt="Pick A Spell" width="60" height="60" id="ra2">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=13>RA2</button>
+			</div>
+			<div class="col-1"></div>
+		</div>
+		<div class="row">
+			<div class="col-1">
+				<img src="https://ffxiv.consolegameswiki.com/mediawiki/images/5/58/Action_Command.png"
+					alt="Pick A Spell" width="60" height="60" id="ld1">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=0>LD1</button>
+			</div>
+			<div class="col-1"></div>
+			<div class="col-1">
+				<img src="https://ffxiv.consolegameswiki.com/mediawiki/images/5/58/Action_Command.png"
+					alt="Pick A Spell" width="60" height="60" id="ld3">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=2>LD3</button>
+			</div>
+			<div class="col-1">
+				<img src="https://ffxiv.consolegameswiki.com/mediawiki/images/5/58/Action_Command.png"
+					alt="Pick A Spell" width="60" height="60" id="la1">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=4>LA1</button>
+			</div>
+			<div class="col-1"></div>
+			<div class="col-1">
+				<img src="https://ffxiv.consolegameswiki.com/mediawiki/images/5/58/Action_Command.png"
+					alt="Pick A Spell" width="60" height="60" id="la3">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=6>LA3</button>
+			</div>
+			<div class="col-1">
+				<img src="https://ffxiv.consolegameswiki.com/mediawiki/images/5/58/Action_Command.png"
+					alt="Pick A Spell" width="60" height="60" id="rd1">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=8>RD1</button>
+			</div>
+			<div class="col-1"></div>
+			<div class="col-1">
+				<img src="https://ffxiv.consolegameswiki.com/mediawiki/images/5/58/Action_Command.png"
+					alt="Pick A Spell" width="60" height="60" id="rd3">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=10>RD3</button>
+			</div>
+			<div class="col-1">
+				<img src="https://ffxiv.consolegameswiki.com/mediawiki/images/5/58/Action_Command.png"
+					alt="Pick A Spell" width="60" height="60" id="ra1">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=12>RA1</button>
+			</div>
+			<div class="col-1"></div>
+			<div class="col-1">
+				<img src="https://ffxiv.consolegameswiki.com/mediawiki/images/5/58/Action_Command.png"
+					alt="Pick A Spell" width="60" height="60" id="ra3">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=14>RA3</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-1"></div>
+			<div class="col-1">
+				<img src="https://ffxiv.consolegameswiki.com/mediawiki/images/5/58/Action_Command.png"
+					alt="Pick A Spell" width="60" height="60" id="ld4">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=3>LD4</button>
+			</div>
+			<div class="col-1"></div>
+			<div class="col-1"></div>
+			<div class="col-1">
+				<img src="https://ffxiv.consolegameswiki.com/mediawiki/images/5/58/Action_Command.png"
+					alt="Pick A Spell" width="60" height="60" id="la4">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=7>LA4</button>
+			</div>
+			<div class="col-1"></div>
+			<div class="col-1"></div>
+			<div class="col-1">
+				<img src="https://ffxiv.consolegameswiki.com/mediawiki/images/5/58/Action_Command.png"
+					alt="Pick A Spell" width="60" height="60" id="rd4">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=11>RD4</button>
+			</div>
+			<div class="col-1"></div>
+			<div class="col-1"></div>
+			<div class="col-1">
+				<img src="https://ffxiv.consolegameswiki.com/mediawiki/images/5/58/Action_Command.png"
+					alt="Pick A Spell" width="60" height="60" id="ra4">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=15>RA4</button>
+			</div>
+			<div class="col-1"></div>
+		</div>
+		<div class="row mt-3">
+			<div class="dropdown">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="hotbarMenu" data-toggle="dropdown"
+					aria-haspopup="true" aria-expanded="false">
+					Hotbar Number
+				</button>
+				<div class="dropdown-menu" aria-labelledby="hotbarMenu">
+					<button class="dropdown-item" type="button">1</button>
+					<button class="dropdown-item" type="button">2</button>
+					<button class="dropdown-item" type="button">3</button>
+					<button class="dropdown-item" type="button">4</button>
+					<button class="dropdown-item" type="button">5</button>
+				</div>
+			</div>
+			<button type="button" class="btn btn-outline-success" id="genMacro">Generate Macro</button>
+		</div>
+		<div class="row mt-3">
+			<div class="col">
+				<h5 id="curBtnMsg">Pick a button to choose a spell</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col" id="spellsPool">
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col" id="macroResult">
+
+			</div>
+		</div>
+	</div>
+
+	<!-- JS, Popper.js, and jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+		crossorigin="anonymous"></script>
+	<!-- App Logic -->
+	<script type="text/javascript" src="assets/javascript/controller.js"></script>
+
+</body>
+
+</html>
