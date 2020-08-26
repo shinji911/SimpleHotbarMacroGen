@@ -39,6 +39,7 @@ $(function () {
     });
 
     $(".dropdown-item").click(function() {
+        macroResult.empty();
         currentHotbar = $(this).text();
         hotbarMenu.text(currentHotbar);
         resetHotbar();
@@ -47,12 +48,16 @@ $(function () {
 
     $("#genMacro").click(function() {
         macroResult.empty();
-        hotbarState.forEach(bar => {
-            if (bar.spell.number != 0) {
-                let line = $("<p>").text(`/chotbar blueAction "` + bar.spell.name + `" ` + currentHotbar + ` ` + bar.posName);
-                macroResult.append(line);
-            };
-        });
+        if (currentHotbar != 0) {
+            hotbarState.forEach(bar => {
+                if (bar.spell.number != 0) {
+                    let line = $("<p>").text(`/chotbar blueAction "` + bar.spell.name + `" ` + currentHotbar + ` ` + bar.posName);
+                    macroResult.append(line);
+                };
+            });
+        } else {
+            macroResult.append("<p>Please select hotbar number</p>");
+        };        
     });
 
     spellsPool.on("click", ".btn-dark", function () {
