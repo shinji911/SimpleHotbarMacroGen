@@ -76,406 +76,406 @@ const spellsData = [
     {
         number: 0,
         name: "Choose A Spell",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/5/58/Action_Command.png"
+        imgUrl: "./assets/images/00.png"
     },
     {
         number: 1,
         name: "Water Cannon",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/c/ca/Water_Cannon.png"
+        imgUrl: "./assets/images/01.png"
     },
     {
         number: 2,
         name: "Flame Thrower",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/7/76/Flame_Thrower.png"
+        imgUrl: "./assets/images/02.png"
     },
     {
         number: 3,
         name: "Aqua Breath",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/f/f2/Aqua_Breath.png"
+        imgUrl: "./assets/images/03.png"
     },
     {
         number: 4,
         name: "Flying Frenzy",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/8/85/Flying_Frenzy.png"
+        imgUrl: "./assets/images/04.png"
     },
     {
         number: 5,
         name: "Drill Cannons",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/2/20/Drill_Cannons.png"
+        imgUrl: "./assets/images/05.png"
     },
     {
         number: 6,
         name: "High Voltage",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/d/d9/High_Voltage.png"
+        imgUrl: "./assets/images/06.png"
     },
     {
         number: 7,
         name: "Loom",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/3/3b/Loom.png"
+        imgUrl: "./assets/images/07.png"
     },
     {
         number: 8,
         name: "Final Sting",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/5/5d/Final_Sting.png"
+        imgUrl: "./assets/images/08.png"
     },
     {
         number: 9,
         name: "Song of Torment",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/f/f4/Song_of_Torment.png"
+        imgUrl: "./assets/images/09.png"
     },
     {
         number: 10,
         name: "Glower",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/b/b1/Glower.png"
+        imgUrl: "./assets/images/10.png"
     },
     {
         number: 11,
         name: "Plaincracker",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/6/68/Plaincracker.png"
+        imgUrl: "./assets/images/11.png"
     },
     {
         number: 12,
         name: "Bristle",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/1/19/Bristle.png"
+        imgUrl: "./assets/images/12.png"
     },
     {
         number: 13,
         name: "White Wind",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/a/a1/White_Wind.png"
+        imgUrl: "./assets/images/13.png"
     },
     {
         number: 14,
         name: "Level 5 Petrify",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/a/a9/Level_5_Petrify.png"
+        imgUrl: "./assets/images/14.png"
     },
     {
         number: 15,
         name: "Sharpened Knife",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/5/50/Sharpened_Knife.png"
+        imgUrl: "./assets/images/15.png"
     },
     {
         number: 16,
         name: "Ice Spikes",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/0/08/Ice_Spikes.png"
+        imgUrl: "./assets/images/16.png"
     },
     {
         number: 17,
         name: "Blood Drain",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/3/3a/Blood_Drain.png"
+        imgUrl: "./assets/images/17.png"
     },
     {
         number: 18,
         name: "Acorn Bomb",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/a/a0/Acorn_Bomb.png"
+        imgUrl: "./assets/images/18.png"
     },
     {
         number: 19,
         name: "Bomb Toss",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/8/8b/Bomb_Toss.png"
+        imgUrl: "./assets/images/19.png"
     },
     {
         number: 20,
         name: "Off-guard",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/e/ee/Off-guard.png"
+        imgUrl: "./assets/images/20.png"
     },
     {
         number: 21,
         name: "Self-destruct",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/3/37/Self-destruct.png"
+        imgUrl: "./assets/images/21.png"
     },
     {
         number: 22,
         name: "Transfusion",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/6/66/Transfusion.png"
+        imgUrl: "./assets/images/22.png"
     },
     {
         number: 23,
         name: "Faze",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/5/5a/Faze.png"
+        imgUrl: "./assets/images/23.png"
     },
     {
         number: 24,
         name: "Flying Sardine",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/2/20/Flying_Sardine.png"
+        imgUrl: "./assets/images/24.png"
     },
     {
         number: 25,
         name: "Snort",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/1/15/Snort.png"
+        imgUrl: "./assets/images/25.png"
     },
     {
         number: 26,
         name: "4-tonze Weight",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/6/6b/4-tonze_Weight.png"
+        imgUrl: "./assets/images/26.png"
     },
     {
         number: 27,
         name: "The Look",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/d/d9/The_Look.png"
+        imgUrl: "./assets/images/27.png"
     },
     {
         number: 28,
         name: "Bad Breath",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/c/c7/Bad_Breath.png"
+        imgUrl: "./assets/images/28.png"
     },
     {
         number: 29,
         name: "Diamondback",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/c/c5/Diamondback.png"
+        imgUrl: "./assets/images/29.png"
     },
     {
         number: 30,
         name: "Mighty Guard",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/0/07/Mighty_Guard.png"
+        imgUrl: "./assets/images/30.png"
     },
     {
         number: 31,
         name: "Sticky Tongue",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/4/4b/Sticky_Tongue.png"
+        imgUrl: "./assets/images/31.png"
     },
     {
         number: 32,
         name: "Toad Oil",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/4/47/Toad_Oil.png"
+        imgUrl: "./assets/images/32.png"
     },{
         number: 33,
         name: "The Ram's Voice",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/0/00/The_Ram%27s_Voice.png"
+        imgUrl: "./assets/images/33.png"
     },
     {
         number: 34,
         name: "The Dragon's Voice",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/5/59/The_Dragon%27s_Voice.png"
+        imgUrl: "./assets/images/34.png"
     },
     {
         number: 35,
         name: "Missile",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/f/fc/Missile.png"
+        imgUrl: "./assets/images/35.png"
     },
     {
         number: 36,
         name: "1000 Needles",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/c/cd/1000_Needles.png"
+        imgUrl: "./assets/images/36.png"
     },
     {
         number: 37,
         name: "Ink Jet",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/7/76/Ink_Jet.png"
+        imgUrl: "./assets/images/37.png"
     },
     {
         number: 38,
         name: "Fire Angon",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/0/03/Fire_Angon.png"
+        imgUrl: "./assets/images/38.png"
     },
     {
         number: 39,
         name: "Moon Flute",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/a/a5/Moon_Flute.png"
+        imgUrl: "./assets/images/39.png"
     },
     {
         number: 40,
         name: "Tail Screw",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/7/74/Tail_Screw.png"
+        imgUrl: "./assets/images/40.png"
     },
     {
         number: 41,
         name: "Mind Blast",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/6/61/Mind_Blast.png"
+        imgUrl: "./assets/images/41.png"
     },
     {
         number: 42,
         name: "Doom",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/0/0b/Doom.png"
+        imgUrl: "./assets/images/42.png"
     },
     {
         number: 43,
         name: "Peculiar Light",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/8/84/Peculiar_Light.png"
+        imgUrl: "./assets/images/43.png"
     },
     {
         number: 44,
         name: "Feather Rain",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/9/9f/Feather_Rain.png"
+        imgUrl: "./assets/images/44.png"
     },
     {
         number: 45,
         name: "Eruption",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/5/52/Eruption.png"
+        imgUrl: "./assets/images/45.png"
     },
     {
         number: 46,
         name: "Mountain Buster",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/e/e5/Mountain_Buster.png"
+        imgUrl: "./assets/images/46.png"
     },
     {
         number: 47,
         name: "Shock Strike",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/b/b5/Shock_Strike.png"
+        imgUrl: "./assets/images/47.png"
     },
     {
         number: 48,
         name: "Glass Dance",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/a/a8/Glass_Dance.png"
+        imgUrl: "./assets/images/48.png"
     },
     {
         number: 49,
         name: "Veil of the Whorl",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/2/2c/Veil_of_the_Whorl.png"
+        imgUrl: "./assets/images/49.png"
     },
     {
         number: 50,
         name: "Alpine Draft",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/8/8d/Alpine_Draft.png"
+        imgUrl: "./assets/images/50.png"
     },
     {
         number: 51,
         name: "Protean Wave",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/9/95/Protean_Wave.png"
+        imgUrl: "./assets/images/51.png"
     },
     {
         number: 52,
         name: "Northerlies",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/4/4c/Northerlies.png"
+        imgUrl: "./assets/images/52.png"
     },
     {
         number: 53,
         name: "Electrogenesis",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/b/ba/Electrogenesis.png"
+        imgUrl: "./assets/images/53.png"
     },
     {
         number: 54,
         name: "Kaltstrahl",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/8/88/Kaltstrahl.png"
+        imgUrl: "./assets/images/54.png"
     },
     {
         number: 55,
         name: "Abyssal Transfixion",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/e/ed/Abyssal_Transfixion.png"
+        imgUrl: "./assets/images/55.png"
     },
     {
         number: 56,
         name: "Chirp",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/3/33/Chirp.png"
+        imgUrl: "./assets/images/56.png"
     },
     {
         number: 57,
         name: "Eerie Soundwave",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/d/db/Eerie_Soundwave.png"
+        imgUrl: "./assets/images/57.png"
     },
     {
         number: 58,
         name: "Pom Cure",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/c/cb/Pom_Cure.png"
+        imgUrl: "./assets/images/58.png"
     },
     {
         number: 59,
         name: "Gobskin",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/9/95/Gobskin.png"
+        imgUrl: "./assets/images/59.png"
     },
     {
         number: 60,
         name: "Magic Hammer",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/a/a9/Magic_Hammer.png"
+        imgUrl: "./assets/images/60.png"
     },
     {
         number: 61,
         name: "Avail",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/b/b6/Avail.png"
+        imgUrl: "./assets/images/61.png"
     },
     {
         number: 62,
         name: "Frog Legs",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/5/52/Frog_Legs.png"
+        imgUrl: "./assets/images/62.png"
     },
     {
         number: 63,
         name: "Sonic Boom",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/7/7c/Sonic_Boom.png"
+        imgUrl: "./assets/images/63.png"
     },
     {
         number: 64,
         name: "Whistle",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/1/18/Whistle.png"
+        imgUrl: "./assets/images/64.png"
     },
     {
         number: 65,
         name: "White Knight's Tour",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/9/9c/White_Knight%27s_Tour.png"
+        imgUrl: "./assets/images/65.png"
     },
     {
         number: 66,
         name: "Black Knight's Tour",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/a/af/Black_Knight%27s_Tour.png"
+        imgUrl: "./assets/images/66.png"
     },
     {
         number: 67,
         name: "Level 5 Death",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/0/01/Level_5_Death.png"
+        imgUrl: "./assets/images/67.png"
     },
     {
         number: 68,
         name: "Launcher",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/8/85/Launcher.png"
+        imgUrl: "./assets/images/68.png"
     },
     {
         number: 69,
         name: "Perpetual Ray",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/3/39/Perpetual_Ray.png"
+        imgUrl: "./assets/images/69.png"
     },
     {
         number: 70,
         name: "Cactguard",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/8/8c/Cactguard.png"
+        imgUrl: "./assets/images/70.png"
     },
     {
         number: 71,
         name: "Revenge Blast",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/f/fa/Revenge_Blast.png"
+        imgUrl: "./assets/images/71.png"
     },
     {
         number: 72,
         name: "Angel Whisper",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/d/d2/Angel_Whisper.png"
+        imgUrl: "./assets/images/72.png"
     },
     {
         number: 73,
         name: "Exuviation",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/3/38/Exuviation.png"
+        imgUrl: "./assets/images/73.png"
     },
     {
         number: 74,
         name: "Reflux",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/d/dc/Reflux.png"
+        imgUrl: "./assets/images/74.png"
     },
     {
         number: 75,
         name: "Devour",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/3/3d/Devour.png"
+        imgUrl: "./assets/images/75.png"
     },
     {
         number: 76,
         name: "Condensed Libra",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/c/c0/Condensed_Libra.png"
+        imgUrl: "./assets/images/76.png"
     },
     {
         number: 77,
         name: "Aetherial Mimicry",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/9/9a/Aetherial_Mimicry.png"
+        imgUrl: "./assets/images/77.png"
     },
     {
         number: 78,
         name: "Surpanakha",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/e/e8/Surpanakha.png"
+        imgUrl: "./assets/images/78.png"
     },
     {
         number: 79,
         name: "Quasar",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/3/3e/Quasar.png"
+        imgUrl: "./assets/images/79.png"
     },
     {
         number: 80,
         name: "J Kick",
-        imgUrl: "https://ffxiv.consolegameswiki.com/mediawiki/images/6/65/J_Kick.png"
+        imgUrl: "./assets/images/80.png"
     }
 ]
 
