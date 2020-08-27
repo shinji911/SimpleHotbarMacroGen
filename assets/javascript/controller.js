@@ -7,6 +7,8 @@ $(function () {
     let hotbarMenu = $("#hotbarMenu");
     let macroResult = $("#macroResult");
 
+    $(".contRow").hide();
+
     function renderBar() {
         for (var i = 0; i < 16; i++) {
             hotbarState[i].barPos.prop("src", hotbarState[i].spell.imgUrl);
@@ -39,6 +41,10 @@ $(function () {
     });
 
     $(".dropdown-item").click(function() {
+        if(currentHotbar == 0) {
+            $(".contRow").show();
+            curBtnMsg.text("Pick a button to choose a spell");
+        }
         macroResult.empty();
         currentHotbar = $(this).text();
         hotbarMenu.text(currentHotbar);
