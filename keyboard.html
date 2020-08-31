@@ -30,8 +30,97 @@
 	</nav>
 
 	<div class="container">
+		<div class="row mt-3 contRow">
+			<div class="col-1">
+				<img src="./assets/images/00.png"
+					alt="Pick A Spell" width="60" height="60" id="k1">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=0>1</button>
+			</div>
+			<div class="col-1">
+				<img src="./assets/images/00.png"
+					alt="Pick A Spell" width="60" height="60" id="k2">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=1>2</button>
+			</div>
+			<div class="col-1">
+				<img src="./assets/images/00.png"
+					alt="Pick A Spell" width="60" height="60" id="k3">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=2>3</button>
+			</div>
+			<div class="col-1">
+				<img src="./assets/images/00.png"
+					alt="Pick A Spell" width="60" height="60" id="k4">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=3>4</button>
+			</div>
+			<div class="col-1">
+				<img src="./assets/images/00.png"
+					alt="Pick A Spell" width="60" height="60" id="k5">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=4>5</button>
+			</div>
+			<div class="col-1">
+				<img src="./assets/images/00.png"
+					alt="Pick A Spell" width="60" height="60" id="k6">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=5>6</button>
+			</div>
+			<div class="col-1">
+				<img src="./assets/images/00.png"
+					alt="Pick A Spell" width="60" height="60" id="k7">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=6>7</button>
+			</div>
+			<div class="col-1">
+				<img src="./assets/images/00.png"
+					alt="Pick A Spell" width="60" height="60" id="k8">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=7>8</button>
+			</div>
+			<div class="col-1">
+				<img src="./assets/images/00.png"
+					alt="Pick A Spell" width="60" height="60" id="k9">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=8>9</button>
+			</div>
+			<div class="col-1">
+				<img src="./assets/images/00.png"
+					alt="Pick A Spell" width="60" height="60" id="k10">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=9>0</button>
+			</div>
+			<div class="col-1">
+				<img src="./assets/images/00.png"
+					alt="Pick A Spell" width="60" height="60" id="k11">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=10>-</button>
+			</div><div class="col-1">
+				<img src="./assets/images/00.png"
+					alt="Pick A Spell" width="60" height="60" id="k12">
+				<button type="button" class="btn btn-primary btn-sm btn-block" value=11>=</button>
+			</div>
+		</div>
+		<div class="row mt-3">
+			<div class="dropdown">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="hotbarMenu" data-toggle="dropdown"
+					aria-haspopup="true" aria-expanded="false">
+					Hotbar Number
+				</button>
+				<div class="dropdown-menu" aria-labelledby="hotbarMenu">
+					<button class="dropdown-item" type="button">1</button>
+					<button class="dropdown-item" type="button">2</button>
+					<button class="dropdown-item" type="button">3</button>
+					<button class="dropdown-item" type="button">4</button>
+					<button class="dropdown-item" type="button">5</button>
+				</div>
+			</div>
+			<button type="button" class="btn btn-outline-success" id="genMacro">Generate Macro</button>
+		</div>
+		<div class="row mt-3">
+			<div class="col">
+				<h5 id="curBtnMsg">Pick a hotbar number</h5>
+			</div>
+		</div>
 		<div class="row">
+			<div class="col" id="spellsPool">
 
+			</div>
+		</div>
+		<div class="row">
+			<div class="col" id="macroResult">
+
+			</div>
 		</div>
 	</div>
 
@@ -46,6 +135,7 @@
 		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
 		crossorigin="anonymous"></script>
 	<!-- App Logic -->
+	<script type="text/javascript" src="assets/javascript/spellsData.js"></script>
 	<script type="text/javascript" src="assets/javascript/keyboard.js"></script>
 
 </body>
